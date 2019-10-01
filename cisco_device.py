@@ -8,7 +8,7 @@ client=paramiko.SSHClient()
 # adding  line for ignoring  host key 
 client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 #  now we can connect with device
-ip="192.168.122.131"
+ip="192.168.122.138"
 username='root'
 password='cisco'
 client.connect(ip,

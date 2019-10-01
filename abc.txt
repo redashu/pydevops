@@ -1,0 +1,6 @@
+int lo 2
+no shut
+ip add 1.1.1.1 255.0.0.0 
+int lo 3
+no shut
+ip add 3.1.1.1 255.0.0.0 
